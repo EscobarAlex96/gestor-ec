@@ -1,0 +1,10 @@
+{
+  "framework": "next",
+  "version": "16.3.2",
+  "adapter": "cloudflare",
+  "functions": {},
+  "routes": [],
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install"
+}

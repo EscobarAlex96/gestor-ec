@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+body {
+  font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+}
+
+table.data th {
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #64748b;
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid #e2e8f0;
+  white-space: nowrap;
+}
+
+table.data td {
+  padding: 0.55rem 0.75rem;
+  border-bottom: 1px solid #f1f5f9;
+  font-size: 0.875rem;
+  color: #1e293b;
+  vertical-align: middle;
+}
+
+table.data tr:hover td {
+  background: #f8fafc;
+}
